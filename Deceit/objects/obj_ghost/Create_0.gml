@@ -6,6 +6,6 @@ enum ghost_state
 	chase
 }
 
-
+state = idle
 
 
