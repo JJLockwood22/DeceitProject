@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_chest",
+    "path": "sprites/spr_chest/spr_chest.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

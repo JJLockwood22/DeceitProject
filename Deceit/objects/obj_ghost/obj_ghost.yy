@@ -27,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemyaggr",
+    "path": "sprites/spr_enemyaggr/spr_enemyaggr.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
