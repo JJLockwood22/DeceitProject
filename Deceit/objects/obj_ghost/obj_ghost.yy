@@ -35,5 +35,5 @@
     "path": "sprites/spr_enemyaggr/spr_enemyaggr.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

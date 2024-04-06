@@ -1,25 +1,33 @@
 /// @description Ghost animations
 
-var facing_ghost = false;
+// Ghost animations
+var ghost_anim = round(direction/180)
 
-scr_facing_ghost();
-
-if (facing_ghost = true)
+switch(ghost_anim)
 {
-	if (state = ghost_state.chase)
+	case 1:
+	sprite_index = spr_enemyaggr;
+	image_xscale = 1;
+	break;
+	
+	case 2:
+	sprite_index = spr_enemyaggr;
+	image_xscale = -1;
+	break;
+}
+
+// Ghost switches to idle and back
+if (state == ghost_state.chase)
+{
+	if (facing_ghost == true)
 	{
-		path_end();
 		state = ghost_state.idle;
-		sprite_index = spr_enemypass
 	}
 }
-
-if (hspeed < 0)
+else if (state == ghost_state.idle)
 {
-	image_xscale = 1
+	if (facing_ghost == false)
+	{
+		state = ghost_state.chase
+	}
 }
-else if (hspeed > 0)
-{
-	image_xscale = -1
-}
-

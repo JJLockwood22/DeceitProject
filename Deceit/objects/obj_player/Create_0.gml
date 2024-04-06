@@ -1,8 +1,9 @@
-/// @description Player speed
+/// @description Player variables
+
+var key_get = false
+var player_direction = 0
 
 player_speed = 3;
-
-player_direction = 1
 
 // Get id of collision layer
 layer_id = layer_get_id("Collision")

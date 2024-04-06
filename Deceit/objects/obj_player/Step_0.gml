@@ -20,12 +20,3 @@ else // vertical direction
 	// Since we can only move in four directions we kill the diagonals
 	hspeed = 0;
 }
-
-
-
-
-
-
-
-
-
