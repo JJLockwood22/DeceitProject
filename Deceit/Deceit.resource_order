@@ -33,6 +33,7 @@
     {"name":"obj_ghost","order":2,"path":"objects/obj_ghost/obj_ghost.yy",},
     {"name":"rm_game_over","order":1,"path":"rooms/rm_game_over/rm_game_over.yy",},
     {"name":"rm_win","order":2,"path":"rooms/rm_win/rm_win.yy",},
+    {"name":"obj_chest_randomizer","order":5,"path":"objects/obj_chest_randomizer/obj_chest_randomizer.yy",},
     {"name":"spr_chest","order":4,"path":"sprites/spr_chest/spr_chest.yy",},
     {"name":"spr_key","order":10,"path":"sprites/spr_key/spr_key.yy",},
     {"name":"obj_chest","order":3,"path":"objects/obj_chest/obj_chest.yy",},
