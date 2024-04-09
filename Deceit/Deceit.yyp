@@ -41,7 +41,6 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_playerback","path":"sprites/spr_playerback/spr_playerback.yy",},},
-    {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},
     {"id":{"name":"ts_dungeon_wall","path":"tilesets/ts_dungeon_wall/ts_dungeon_wall.yy",},},
     {"id":{"name":"spr_playerside","path":"sprites/spr_playerside/spr_playerside.yy",},},
     {"id":{"name":"scr_player_collision","path":"scripts/scr_player_collision/scr_player_collision.yy",},},
@@ -53,11 +52,7 @@
     {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"id":{"name":"spr_dungeon_wall","path":"sprites/spr_dungeon_wall/spr_dungeon_wall.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"obj_chest_randomizer","path":"objects/obj_chest_randomizer/obj_chest_randomizer.yy",},},
-=======
-    {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},},
->>>>>>> c05a890c7ea5e8094741a2d335cbbe5ae22e1658
     {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},},
