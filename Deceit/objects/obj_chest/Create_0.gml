@@ -1,6 +1,6 @@
 /// @description Chest variables
 
-var has_key = false
+has_key = false
 
 
 

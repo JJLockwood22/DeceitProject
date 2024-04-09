@@ -1,6 +1,6 @@
 /// @description Ghost variables
 
-var facing_ghost = false;
+facing_ghost = false;
 
 enum ghost_state
 {

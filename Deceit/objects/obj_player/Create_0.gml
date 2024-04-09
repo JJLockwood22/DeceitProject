@@ -1,7 +1,7 @@
 /// @description Player variables
 
-var key_get = true
-var player_direction = 0
+key_get = true
+player_direction = 0
 
 player_speed = 3;
 
