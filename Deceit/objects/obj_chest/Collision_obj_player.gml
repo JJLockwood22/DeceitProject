@@ -8,7 +8,7 @@ if (has_key == true)
 	{
 		key_get = true
 	}
-	instance_create_depth(obj_chest.x, obj_chest.y + 3, 2, obj_key)
+	instance_create_depth(x, y - 50, 2, obj_key)
 }
 
 
