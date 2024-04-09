@@ -17,4 +17,4 @@ enemy_grid = mp_grid_create(0, 0, room_width / 32, room_height / 32, 32, 32)
 ghost_chase_path = path_add();
 
 // Ghost speed
-ghost_speed = 2;
+ghost_speed = 1.5;

@@ -1,6 +1,6 @@
 /// @description Player variables
 
-key_get = true
+key_get = false
 player_direction = 0
 
 player_speed = 3;

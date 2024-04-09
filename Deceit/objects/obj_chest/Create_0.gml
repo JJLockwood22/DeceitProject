@@ -2,7 +2,7 @@
 
 has_key = false
 
-
+chest_open = false
 
 
 
