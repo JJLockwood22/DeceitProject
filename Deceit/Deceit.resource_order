@@ -19,11 +19,13 @@
   "ResourceOrderSettings": [
     {"name":"ts_collision","order":2,"path":"tilesets/ts_collision/ts_collision.yy",},
     {"name":"ts_dungeon_floor","order":1,"path":"tilesets/ts_dungeon_floor/ts_dungeon_floor.yy",},
+    {"name":"spr_lose","order":12,"path":"sprites/spr_lose/spr_lose.yy",},
     {"name":"spr_enemypass","order":8,"path":"sprites/spr_enemypass/spr_enemypass.yy",},
     {"name":"spr_collision","order":2,"path":"sprites/spr_collision/spr_collision.yy",},
     {"name":"obj_door","order":4,"path":"objects/obj_door/obj_door.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"spr_playerback","order":6,"path":"sprites/spr_playerback/spr_playerback.yy",},
+    {"name":"spr_win","order":11,"path":"sprites/spr_win/spr_win.yy",},
     {"name":"spr_playerside","order":5,"path":"sprites/spr_playerside/spr_playerside.yy",},
     {"name":"scr_player_collision","order":1,"path":"scripts/scr_player_collision/scr_player_collision.yy",},
     {"name":"spr_door","order":10,"path":"sprites/spr_door/spr_door.yy",},
