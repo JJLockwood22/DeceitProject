@@ -1,14 +1,24 @@
 /// @description Player opens chest
 
-chest_open = true
-
-if (has_key == true)
+if (!obj_chest_randomizer.chest_key_found && !chest_open)
 {
-	with (other)
+	chest_open = true;
+	
+	key_chance = irandom_range(1, obj_chest_randomizer.chests_to_open);
+	player_chance = irandom_range(1, obj_chest_randomizer.chests_to_open);
+	
+	if (key_chance == player_chance)
 	{
-		key_get = true
+		obj_chest_randomizer.chest_key_found = true;
+		instance_create_depth(self.x, self.y - 40, 3, obj_key)
+		effect_create_above(ef_firework, self.x, self.y - 40, 64, c_white);
+		obj_chest.chest_open = true;
+		obj_player.key_get = true;
 	}
-	instance_create_depth(x, y - 50, 2, obj_key)
+	else
+	{
+		obj_chest_randomizer.chests_to_open--;
+	}
 }
 
 

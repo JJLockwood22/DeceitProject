@@ -1,10 +1,8 @@
 /// @description Chest variables
 
-has_key = true
-
 chest_open = false
-
-
+key_chance = 0;
+player_chance = 0;
 
 
 
